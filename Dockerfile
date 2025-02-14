@@ -21,4 +21,4 @@ RUN git init && \
     yarn && yarn preprocess
 
 # Set the default command
-CMD ["yarn", "run", "bundler"]
+CMD ["yarn", "run", "bundler", "--unsafe"]
